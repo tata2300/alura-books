@@ -4,6 +4,7 @@
     --laranja: #eb9b00;
     --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
+    --azul: #002f52;
   }
 body {
     background-color: var(--cor-de-fundo);
@@ -14,8 +15,14 @@ body {
 h1 {
     background-color: white;
 }
-@import url("styles/header.css");
-@import url("styles/banner.css");
+
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
